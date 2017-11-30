@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
 import config from '../../config';
-
+import { nsFetch } from '../../helpers/fetch';
 
 class DepartureScreen extends Component {
     constructor() {
